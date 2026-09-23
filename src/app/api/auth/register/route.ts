@@ -12,4 +12,4 @@ export async function POST(request: Request) {
     } catch (error) {
         return NextResponse.json({message: "Error registering user"}, {status: 500});
     }
-}
+}   
